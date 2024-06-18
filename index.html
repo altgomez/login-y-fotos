@@ -6,24 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-</head>
+    <!-- <link rel="stylesheet" href="responsive.css"media="screen and (max-width: 1000px) and (orientation: landscape)"> -->
 
+</head>
 <body>
     <!-- formulario de ingreso -->
+<div class="contenedor">
+    <form id="login" action="auth.html" method="get">
 
-    <form id="login" action="">
-        
-        <label for="username">usuario</label>
-        <input type="text" id="username name= username" required>
-        <label for="password">contraseña</label>
-        <input type="password" id="password" name="password" required>
-        <input type="checkbox" name="condiciones">
-        <label for="condiciones" id="condiciones"> acepto las condiciones </label>
+        <label class="label" for="username">usuario</label>
+        <input class="input" type="text" id="username" name="username" required>
+        <br>
+        <label class="label" for="password">contraseña</label>
+        <input class="input" type="password" id="password" name="password" required>
+        <br>
+        <label>
+        <input class="check" type="checkbox"  id="terminos" name="terminos" required>
+         acepto los <a href="condiciones.html" >terminos y condiciones</a>  
+        </label>
+        <br>
         <button type="submit">login</button>
     
     </form>
-
-    <script src="main.js"></script>
+</div>
+<!-- </div> -->
+  
 </body>
 
 </html>

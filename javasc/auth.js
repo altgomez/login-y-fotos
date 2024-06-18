@@ -14,7 +14,7 @@ if (username == 'altgomez' && password == '123'){
 
 else {
 alert('datos incorrectos')
-     window.location.href = 'index.html'
+     window.location.href = '../index.html'
 }
 
 

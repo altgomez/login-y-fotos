@@ -9,7 +9,7 @@ console.log(password)
 
 if (username == 'altgomez' && password == '123'){
 
-    window.location.href = 'fotos.html'
+    window.location.href = '../paginas.fotos.html'
 }
 
 else {

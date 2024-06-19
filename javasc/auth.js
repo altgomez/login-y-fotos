@@ -1,15 +1,11 @@
 const authen = new URLSearchParams(window.location.search)
-console.log(authen)
-
 
 const username = authen.get('username');
-console.log(username)
 const password = authen.get('password');
-console.log(password)
 
 if (username == 'altgomez' && password == '123'){
 
-    window.location.href = '../paginas.fotos.html'
+    window.location.href = '../paginas/fotos.html'
 }
 
 else {
